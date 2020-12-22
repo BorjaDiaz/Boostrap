@@ -1,0 +1,90 @@
+<style>
+    body {
+        background: #F5A9A9; 
+    }
+    @media (min-width: 576px) {
+        body {
+            background: yellow; 
+        }
+
+    }
+    @media (min-width: 768px) { 
+        body {
+            background: green; 
+        }
+    }
+    @media (min-width: 992px) {
+        body {
+            background: #58ACFA; 
+        }
+    }
+    @media (min-width: 1200px) {
+        body {
+            background: orange; 
+        }
+    } 
+
+    </style>    
+
+    <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Name</th>
+                    <th>Position</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2</td>
+                    <td>Tiger Nixon</td>
+                    <td>System Architect</td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td>Garrett Winters</td>
+                    <td>Accountant</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Ashton Cox</td>
+                    <td>Junior Technical Author</td>
+                </tr>
+                <tr>
+                    <td>41</td>
+                    <td>Cedric Kelly</td>
+                    <td>Senior Javascript Developer</td>
+                </tr>
+                <tr>
+                    <td>55</td>
+                    <td>Airi Satou</td>
+                    <td>Accountant</td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td>Brielle Williamson</td>
+                    <td>Integration Specialist</td>
+                    
+                </tr>
+                <tr>
+                    <td>46</td>
+                    <td>Herrod Chandler</td>
+                    <td>Sales Assistant</td>
+                </tr>
+                <tr>
+                    <td>50</td>
+                    <td>Rhona Davidson</td>
+                    <td>Integration Specialist</td>
+                </tr>
+                <tr>
+                    <td>26</td>
+                    <td>Colleen Hurst</td>
+                    <td>Javascript Developer</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>Sonya Frost</td>
+                    <td>Software Engineer</td>
+                </tr>
+            </tbody>
+    </table>

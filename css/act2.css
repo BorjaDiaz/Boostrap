@@ -1,0 +1,92 @@
+section{
+	display: grid;
+	grid-template-areas:  "header header header"
+						  "nav nav nav"
+                          "left right right"
+						  "item item item"
+						  "footer footer footer";
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 5px;
+	grid-row-gap: 5px;
+}
+section > header{
+	grid-area: header;
+	background-color: red;
+	padding-left: 5px;
+}
+
+nav > ul{
+	display: flex;
+	flex-direction: row;
+}
+
+nav > ul >li{
+	margin-left: 5px;
+	main-right: 5px;
+	list-style: none;
+	background-color: blue;
+}
+
+nav{
+	background-color: green;
+	grid-area: nav;
+}
+
+#main-left{
+	grid-area: left;
+	background-color:yellow;
+}
+
+#main-right{
+	grid-area: right;
+	background-color: gray;
+	width: 100%;
+}
+
+#news-items{
+	background-color: pink;
+	grid-area: item;
+	display: grid;
+	grid-template-areas:  "header header header"
+						  "div div div";
+}
+
+#news-items > header{
+	grid-area: header;
+}
+
+#news-items > div{
+	grid-area: div;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+footer{
+	grid-area: footer;
+	background-color: pink;
+	
+}
+
+footer > ul {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+}
+
+footer > ul > li{
+	list-style: none;
+	
+}
+
+footer > ul > li:nth-child(2n+1){
+	background-color: black;
+	color:white;
+	font-size: 200%;
+}
+
+img[title~="titel"]{
+	width: 200px;
+	height: 100px;
+}
